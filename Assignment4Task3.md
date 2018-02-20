@@ -1,3 +1,4 @@
+```
 library(ggplot2) # We load in libraries
 library(plotly)
 setwd('~/mygraph2/bin/')  # We Change Directory
@@ -21,3 +22,4 @@ p<-ggplot(data = genes) +
 geom_bar(mapping = aes(x = chr, fill = feature), width = 1) 
 # Re-render if ggplotly # Note sometimes it doesn't work well
 ggplotly(p)
+```
